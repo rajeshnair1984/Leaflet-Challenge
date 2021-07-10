@@ -1,0 +1,43 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+/* Legend Styling */
+.legend {
+  color: #555;
+  padding: 6px 8px;
+  font: 12px Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background: white;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.legend ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bar {
+  display: inline-block;
+  width: 30px;
+  height: 25px;
+}
+
+.legend-label {
+  position: relative;
+  transform: translateY(50%);
+  -webkit-transform: translateY(50%);
+  padding-left: 5px;
+  margin: 0;
+  float: right;
+}
